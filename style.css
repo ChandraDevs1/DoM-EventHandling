@@ -4,7 +4,6 @@
 }
 
 
-
 .nav {
   background-color: rgb(215, 146, 55);
   height: 10vh;
@@ -18,57 +17,66 @@
   position: relative;
   top: 15vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  
 }
 
 .box1 {
-  width: 14vw;
-  height: 17vh;
+  width: 10vw;
+  height: 13vh;
   align-content: center;
   text-align: center;
   border: 2px solid;
  
 }
 .box2 {
-  width: 14vw;
-  height: 17vh;
+  width: 10vw;
+  height: 13vh;
   align-content: center;
   text-align: center;
   border: 2px solid;
 }
 .box3 {
-  width: 14vw;
-  height: 17vh;
+  width: 10vw;
+  height: 13vh;
   align-content: center;
   text-align: center;
   border: 2px solid;
 }
 .box4 {
-  width: 14vw;
-  height: 17vh;
+  width: 10vw;
+  height: 13vh;
   align-content: center;
   text-align: center;
   border: 2px solid;
 }
 
 form {
+  display: flex;
+  justify-content: center;
   text-align: center;
   position: relative;
-  top: 35vh;
+  top: 30vh;
 }
 
 #name {
   width: 400px;
   height: 30px;
+  text-align: center;
 }
 
 #btn {
-  width: 60px;
+  width: 78px;
   height: 35px;
-  background-color: #8a8785;
+  background-color: #a0653e;
+  margin-left: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  color: azure;
   border: none;
 }
 
 #btn:hover {
-  background-color: #555555;
+  background-color: #ab4242;
 }
+
