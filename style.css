@@ -17,8 +17,9 @@
   position: relative;
   top: 15vh;
   display: flex;
-  justify-content: space-evenly;
-  
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
 }
 
 .box1 {
@@ -55,12 +56,13 @@ form {
   display: flex;
   justify-content: center;
   text-align: center;
+  gap: 14px;
   position: relative;
-  top: 30vh;
+  top: 25vh;
 }
 
 #name {
-  width: 400px;
+  width: 300px;
   height: 30px;
   text-align: center;
 }
@@ -69,7 +71,6 @@ form {
   width: 78px;
   height: 35px;
   background-color: #a0653e;
-  margin-left: 10px;
   font-size: 15px;
   border-radius: 10px;
   color: azure;
